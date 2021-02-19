@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+body {
+  background-color: #097bf8;
+}
+
+#heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#heading .container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#heading .container .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+  width: auto;
+  height: 100vh;
+}
+
+#heading .container .slide .content {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+#heading .container .slide .content img {
+  width: 300px;
+  -webkit-box-shadow: 0 0 40px #0c5eb4;
+          box-shadow: 0 0 40px #0c5eb4;
+  border-radius: 20px;
+}
+
+#heading .container .slide .content h1 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+#heading .container .slide .content .input-text {
+  display: block;
+  margin: 0 auto;
+  padding: 0 90px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#heading .container .slide .content .input-text input {
+  cursor: pointer;
+}
+
+#heading .container .slide .content .input-text label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#heading .container .slide .content .input-text button {
+  margin-top: 10px;
+  padding: 10px 50px;
+  background-color: #0c5eb4;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#heading .container .slide .content .input-text button:hover {
+  background-color: #fff;
+  color: #097bf8;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #heading .slide {
+    display: block !important;
+    width: 320px !important;
+  }
+  #heading .input-text {
+    padding: 0 20px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
